@@ -35,14 +35,17 @@ window.addEventListener('click', function (e) {
 // Darkmode toggle
 const darkToggle = document.querySelector('#dark-toggle');
 const html = document.querySelector('html');
+const logoElement = document.querySelector('#logo-img');
 
 darkToggle.addEventListener('click', function () {
   if (darkToggle.checked) {
     html.classList.add('dark');
     localStorage.theme = 'dark';
+    logoElement.src = 'dist/img/logo/logo_transparent_dark.svg';
   } else {
     html.classList.remove('dark');
     localStorage.theme = 'light';
+    logoElement.src = 'dist/img/logo/logo_transparent.svg';
   }
 });
 
