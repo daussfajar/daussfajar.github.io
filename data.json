@@ -1,0 +1,26 @@
+[
+    {
+        "app_name": "Merdeka Belajar Kampus Merdeka (MBKM)",
+        "app_type": "Web Application",
+        "app_image": "dist/img/portfolio/mbkm.png",
+        "app_link": ""
+    },
+    {
+        "app_name": "Sistem Pencairan Anggaran (SPA)",
+        "app_type": "Web Application",
+        "app_image": "dist/img/portfolio/spa.png",
+        "app_link": ""
+    },
+    {
+        "app_name": "Sistem Informasi Pegawai Unggul (SiMPUL)",
+        "app_type": "Web Application",
+        "app_image": "dist/img/portfolio/simpul.png",
+        "app_link": ""
+    },
+    {
+        "app_name": "Sistem Informasi OBE (SIM-OBE)",
+        "app_type": "Web Application",
+        "app_image": "dist/img/portfolio/obe.png",
+        "app_link": ""
+    }
+]
