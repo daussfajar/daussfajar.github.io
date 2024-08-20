@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkdaussfajar_github_io=self.webpackChunkdaussfajar_github_io||[]).push([[283],{4283:(s,a,e)=>{e.r(a),e.d(a,{default:()=>r});var u=e(448),i=e(6611),c=e(579);const r=()=>(0,c.jsx)(i.S,{children:(0,c.jsx)("div",{className:"container mx-auto",children:(0,c.jsx)(u.A,{})})})}}]);
+//# sourceMappingURL=283.6ee0f240.chunk.js.map
