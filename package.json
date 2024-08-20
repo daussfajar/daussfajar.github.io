@@ -6,12 +6,13 @@
 		"email": "daussfajar28@gmail.com"
 	},
 	"private": true,
-	"homepage": "/public/",
+	"homepage": "https://daussfajar.github.io",
 	"dependencies": {
 		"@testing-library/jest-dom": "^5.16.5",
 		"@testing-library/react": "^13.4.0",
 		"@testing-library/user-event": "^14.4.3",
 		"framer-motion": "4.1.17",
+		"gh-pages": "^6.1.1",
 		"postcss-cli": "^10.1.0",
 		"react": "^18.1.0",
 		"react-countup": "^6.1.1",
@@ -26,12 +27,12 @@
 		"yet-another-react-lightbox": "^3.21.3"
 	},
 	"scripts": {
-		"start": "react-scripts --openssl-legacy-provider start",
-		"build": "yarn run react-scripts build",
+		"start": "react-scripts start",
+		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
-		"build:css": "postcss src/css/tailwind.css -o src/css/main.css",		
-		"predeploy": "npm run build",
+		"build:css": "postcss src/css/tailwind.css -o src/css/main.css",
+		"predeploy": "yarn build",
 		"deploy": "gh-pages -d build"
 	},
 	"eslintConfig": {
