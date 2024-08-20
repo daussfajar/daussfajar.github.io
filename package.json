@@ -1,8 +1,12 @@
 {
 	"name": "daussfajar.github.io",
 	"version": "0.1.0",
+	"author": {
+		"name": "Fajar Firdaus",
+		"email": "daussfajar28@gmail.com"
+	},
 	"private": true,
-	"homepage": "/",
+	"homepage": "/public/",
 	"dependencies": {
 		"@testing-library/jest-dom": "^5.16.5",
 		"@testing-library/react": "^13.4.0",
