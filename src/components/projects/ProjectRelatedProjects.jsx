@@ -1,9 +1,10 @@
 import { useContext } from 'react';
 import SingleProjectContext from '../../context/SingleProjectContext';
-import { navigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const ProjectRelatedProjects = ({ project }) => {
 	const { singleProjectData } = useContext(SingleProjectContext);
+	const navigate = useNavigate();
 
 	if (!project) return null;
 
