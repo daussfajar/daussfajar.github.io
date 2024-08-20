@@ -1,0 +1,330 @@
+/*== 
+ * React & TailwindCSS Portfolio Main CSS File
+*/
+
+body {
+	font-family: 'GeneralSans-Variable';
+}
+
+/* Fonts */
+@font-face {
+	font-family: 'GeneralSans-Variable';
+	src: url('../fonts/GeneralSans-Variable.woff2') format('woff2'),
+		url('../fonts/GeneralSans-Variable.woff') format('woff'),
+		url('../fonts/GeneralSans-Variable.ttf') format('truetype');
+	font-weight: 200 700;
+	font-display: swap;
+	font-style: normal;
+}
+
+.font-general-variable {
+	font-family: 'GeneralSans-Variable';
+}
+
+@font-face {
+	font-family: 'GeneralSans-VariableItalic';
+	src: url('../fonts/GeneralSans-VariableItalic.woff2') format('woff2'),
+		url('../fonts/GeneralSans-VariableItalic.woff') format('woff'),
+		url('../fonts/GeneralSans-VariableItalic.ttf') format('truetype');
+	font-weight: 200 700;
+	font-display: swap;
+	font-style: italic;
+}
+
+.font-general-variable-italic {
+	font-family: 'GeneralSans-VariableItalic';
+}
+
+@font-face {
+	font-family: 'GeneralSans-Extralight';
+	src: url('../fonts/GeneralSans-Extralight.woff2') format('woff2'),
+		url('../fonts/GeneralSans-Extralight.woff') format('woff'),
+		url('../fonts/GeneralSans-Extralight.ttf') format('truetype');
+	font-weight: 200;
+	font-display: swap;
+	font-style: normal;
+}
+
+.font-general-extralight {
+	font-family: 'GeneralSans-Extralight';
+}
+
+@font-face {
+	font-family: 'GeneralSans-ExtralightItalic';
+	src: url('../fonts/GeneralSans-ExtralightItalic.woff2') format('woff2'),
+		url('../fonts/GeneralSans-ExtralightItalic.woff') format('woff'),
+		url('../fonts/GeneralSans-ExtralightItalic.ttf') format('truetype');
+	font-weight: 200;
+	font-display: swap;
+	font-style: italic;
+}
+
+.font-general-extralight-italic {
+	font-family: 'GeneralSans-ExtralightItalic';
+}
+
+@font-face {
+	font-family: 'GeneralSans-Light';
+	src: url('../fonts/GeneralSans-Light.woff2') format('woff2'),
+		url('../fonts/GeneralSans-Light.woff') format('woff'),
+		url('../fonts/GeneralSans-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-display: swap;
+	font-style: normal;
+}
+
+.font-general-light {
+	font-family: 'GeneralSans-Light';
+}
+
+@font-face {
+	font-family: 'GeneralSans-LightItalic';
+	src: url('../fonts/GeneralSans-LightItalic.woff2') format('woff2'),
+		url('../fonts/GeneralSans-LightItalic.woff') format('woff'),
+		url('../fonts/GeneralSans-LightItalic.ttf') format('truetype');
+	font-weight: 300;
+	font-display: swap;
+	font-style: italic;
+}
+
+.font-general-light-italic {
+	font-family: 'GeneralSans-LightItalic';
+}
+
+@font-face {
+	font-family: 'GeneralSans-Regular';
+	src: url('../fonts/GeneralSans-Regular.woff2') format('woff2'),
+		url('../fonts/GeneralSans-Regular.woff') format('woff'),
+		url('../fonts/GeneralSans-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-display: swap;
+	font-style: normal;
+}
+
+.font-general-regular {
+	font-family: 'GeneralSans-Regular';
+}
+
+@font-face {
+	font-family: 'GeneralSans-Italic';
+	src: url('../fonts/GeneralSans-Italic.woff2') format('woff2'),
+		url('../fonts/GeneralSans-Italic.woff') format('woff'),
+		url('../fonts/GeneralSans-Italic.ttf') format('truetype');
+	font-weight: 400;
+	font-display: swap;
+	font-style: italic;
+}
+
+.font-general-italic {
+	font-family: 'GeneralSans-Italic';
+}
+
+@font-face {
+	font-family: 'GeneralSans-Medium';
+	src: url('../fonts/GeneralSans-Medium.woff2') format('woff2'),
+		url('../fonts/GeneralSans-Medium.woff') format('woff'),
+		url('../fonts/GeneralSans-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-display: swap;
+	font-style: normal;
+}
+
+.font-general-medium {
+	font-family: 'GeneralSans-Medium';
+}
+
+@font-face {
+	font-family: 'GeneralSans-MediumItalic';
+	src: url('../fonts/GeneralSans-MediumItalic.woff2') format('woff2'),
+		url('../fonts/GeneralSans-MediumItalic.woff') format('woff'),
+		url('../fonts/GeneralSans-MediumItalic.ttf') format('truetype');
+	font-weight: 500;
+	font-display: swap;
+	font-style: italic;
+}
+
+.font-general-medium-italic {
+	font-family: 'GeneralSans-MediumItalic';
+}
+
+@font-face {
+	font-family: 'GeneralSans-Semibold';
+	src: url('../fonts/GeneralSans-Semibold.woff2') format('woff2'),
+		url('../fonts/GeneralSans-Semibold.woff') format('woff'),
+		url('../fonts/GeneralSans-Semibold.ttf') format('truetype');
+	font-weight: 600;
+	font-display: swap;
+	font-style: normal;
+}
+
+.font-general-semibold {
+	font-family: 'GeneralSans-Semibold';
+}
+
+@font-face {
+	font-family: 'GeneralSans-SemiboldItalic';
+	src: url('../fonts/GeneralSans-SemiboldItalic.woff2') format('woff2'),
+		url('../fonts/GeneralSans-SemiboldItalic.woff') format('woff'),
+		url('../fonts/GeneralSans-SemiboldItalic.ttf') format('truetype');
+	font-weight: 600;
+	font-display: swap;
+	font-style: italic;
+}
+
+.font-general-semibold-italic {
+	font-family: 'GeneralSans-SemiboldItalic';
+}
+
+@font-face {
+	font-family: 'GeneralSans-Bold';
+	src: url('../fonts/GeneralSans-Bold.woff2') format('woff2'),
+		url('../fonts/GeneralSans-Bold.woff') format('woff'),
+		url('../fonts/GeneralSans-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-display: swap;
+	font-style: normal;
+}
+
+.font-general-bold {
+	font-family: 'GeneralSans-Bold';
+}
+
+@font-face {
+	font-family: 'GeneralSans-BoldItalic';
+	src: url('../fonts/GeneralSans-BoldItalic.woff2') format('woff2'),
+		url('../fonts/GeneralSans-BoldItalic.woff') format('woff'),
+		url('../fonts/GeneralSans-BoldItalic.ttf') format('truetype');
+	font-weight: 700;
+	font-display: swap;
+	font-style: italic;
+}
+
+.font-general-bold-italic {
+	font-family: 'GeneralSans-BoldItalic';
+}
+
+/* Scroll to top style */
+.scrollToTop {
+	background-color: #4F46E5;
+	color: white;
+	position: fixed;
+	width: 100%;
+	align-items: center;
+	height: 20px;
+	justify-content: center;
+	z-index: 999;
+	cursor: pointer;
+	animation: fadeIn 0.3s;
+	transition: opacity 0.4s;
+	opacity: 0.9;
+}
+
+.scrollToTop:hover {
+	opacity: 1;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0.5;
+	}
+}
+
+.swiper {
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.swiper-slide img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+	/* position: absolute;
+	top: 60%;
+	z-index: 2; */
+	box-shadow: 0 6px 12px -2px rgba(50, 50, 93, 0.25), 0 3px 7px -3px rgba(0, 0, 0, 0.3);
+	width: 36px!important;
+	height: 36px!important;
+	padding: 0;
+	font-weight: bold;
+	border: 0;
+	/* display: flex;
+	justify-content: center;
+	align-items: center;
+	pointer-events: all;
+	cursor: pointer; */
+	color: #101010!important;
+	background: white;
+	border-radius: 50%;
+	font-size: 16px;
+	transform: translateX(15%);
+}
+
+/* hover effect */
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+	background: #000;
+	color: white!important;
+}
+
+/* Untuk layar yang lebih besar, seperti desktop */
+@media (min-width: 1024px) {
+    .swiper-button-prev {
+        left: 7%;
+    }
+    .swiper-button-next {
+        right: 7%;
+    }
+}
+
+/* Untuk layar yang lebih kecil, seperti mobile */
+@media (max-width: 1024px) {
+    .swiper-button-prev,
+    .swiper-button-next {
+        width: 36px;
+        height: 36px;
+        font-size: 14px;
+        top: 50%;
+    }
+    .swiper-button-prev {
+        left: 5%;
+    }
+    .swiper-button-next {
+        right: 5%;
+    }
+}
+
+.swiper-pagination-bullet-active {
+	background: #004680 !important;
+}
+
+@media (max-width: 640px) {
+  .mobile-padding-top {
+    padding-top: 1.5rem;
+  }
+}
+
+.swiper-button-prev:after, .swiper-button-next:after {
+    font-family: swiper-icons;
+    font-size: var(--swiper-navigation-size);
+    text-transform: none !important;
+    letter-spacing: 0;
+    font-variant: initial;
+    line-height: 1;
+    font-size: 16px !important;
+}
