@@ -1,9 +1,9 @@
-import { useContext, useHistory } from 'react';
+import { useContext } from 'react';
 import SingleProjectContext from '../../context/SingleProjectContext';
+import { navigate } from 'react-router-dom';
 
 const ProjectRelatedProjects = ({ project }) => {
 	const { singleProjectData } = useContext(SingleProjectContext);
-	const history = useHistory(); // Add this line to import useHistory hook
 
 	if (!project) return null;
 
@@ -35,8 +35,7 @@ const ProjectRelatedProjects = ({ project }) => {
 								e.currentTarget.style.transform = 'scale(1)';
 							}}
 							onClick={() => {
-								// navigate using react-router-dom
-								history.push(`/projects/${project.id}`);
+								navigate(`/projects/${project.id}`);
 							}}
 						/>
 					);
