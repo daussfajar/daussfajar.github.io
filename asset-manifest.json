@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.69fd7c44.css",
-    "main.js": "/static/js/main.a3f7dd48.js",
+    "main.js": "/static/js/main.306ed56f.js",
     "static/js/897.b1a75205.chunk.js": "/static/js/897.b1a75205.chunk.js",
     "static/js/5.46486af3.chunk.js": "/static/js/5.46486af3.chunk.js",
     "static/js/849.c8fd6bb2.chunk.js": "/static/js/849.c8fd6bb2.chunk.js",
     "static/js/283.6ee0f240.chunk.js": "/static/js/283.6ee0f240.chunk.js",
-    "static/js/640.f4e4ae17.chunk.js": "/static/js/640.f4e4ae17.chunk.js",
+    "static/js/640.2ccd96a8.chunk.js": "/static/js/640.2ccd96a8.chunk.js",
     "static/js/44.86f59792.chunk.js": "/static/js/44.86f59792.chunk.js",
     "static/js/453.4582b3e9.chunk.js": "/static/js/453.4582b3e9.chunk.js",
     "static/css/19.201ee0f0.chunk.css": "/static/css/19.201ee0f0.chunk.css",
     "static/js/19.5a290533.chunk.js": "/static/js/19.5a290533.chunk.js",
-    "static/js/327.6a468c72.chunk.js": "/static/js/327.6a468c72.chunk.js",
+    "static/js/327.748d8c2d.chunk.js": "/static/js/327.748d8c2d.chunk.js",
     "static/media/student_portal-1.png": "/static/media/student_portal-1.99251e1d31b4cd39579b.png",
     "static/media/mbkm-1.png": "/static/media/mbkm-1.032af78551f32ced744f.png",
     "static/media/uc_career-7.png": "/static/media/uc_career-7.35624ec86a79245a0826.png",
@@ -23,9 +23,9 @@
     "static/media/student_portal-4.png": "/static/media/student_portal-4.e2aeeb8922188dace070.png",
     "static/media/student_portal-5.png": "/static/media/student_portal-5.bdf32c7c33c075eb3b92.png",
     "static/media/egi_helpdesk-1.png": "/static/media/egi_helpdesk-1.a4ef9bc99dcc916ee140.png",
-    "static/media/egi_helpdesk.jpg": "/static/media/egi_helpdesk.4b9e5fc8aad08f468672.jpg",
     "static/media/uc_careercenter.jpg": "/static/media/uc_careercenter.4a2352815f18e0a995e6.jpg",
     "static/media/egi_helpdesk-3.png": "/static/media/egi_helpdesk-3.f128fd15796fd519aafd.png",
+    "static/media/egi_helpdesk.jpg": "/static/media/egi_helpdesk.dc33ba08d2a7426e5a14.jpg",
     "static/media/profile.jpg": "/static/media/profile.34f420cced9e55430c1c.jpg",
     "static/media/egi_helpdesk-5.png": "/static/media/egi_helpdesk-5.48b13a4acae48a262ee9.png",
     "static/media/mbkm-6.png": "/static/media/mbkm-6.c3372e0edaeac9b77858.png",
@@ -100,20 +100,20 @@
     "static/media/logo_transparent_dark.svg": "/static/media/logo_transparent_dark.aa43519b2f11dea04ebfa31387786ea7.svg",
     "index.html": "/index.html",
     "main.69fd7c44.css.map": "/static/css/main.69fd7c44.css.map",
-    "main.a3f7dd48.js.map": "/static/js/main.a3f7dd48.js.map",
+    "main.306ed56f.js.map": "/static/js/main.306ed56f.js.map",
     "897.b1a75205.chunk.js.map": "/static/js/897.b1a75205.chunk.js.map",
     "5.46486af3.chunk.js.map": "/static/js/5.46486af3.chunk.js.map",
     "849.c8fd6bb2.chunk.js.map": "/static/js/849.c8fd6bb2.chunk.js.map",
     "283.6ee0f240.chunk.js.map": "/static/js/283.6ee0f240.chunk.js.map",
-    "640.f4e4ae17.chunk.js.map": "/static/js/640.f4e4ae17.chunk.js.map",
+    "640.2ccd96a8.chunk.js.map": "/static/js/640.2ccd96a8.chunk.js.map",
     "44.86f59792.chunk.js.map": "/static/js/44.86f59792.chunk.js.map",
     "453.4582b3e9.chunk.js.map": "/static/js/453.4582b3e9.chunk.js.map",
     "19.201ee0f0.chunk.css.map": "/static/css/19.201ee0f0.chunk.css.map",
     "19.5a290533.chunk.js.map": "/static/js/19.5a290533.chunk.js.map",
-    "327.6a468c72.chunk.js.map": "/static/js/327.6a468c72.chunk.js.map"
+    "327.748d8c2d.chunk.js.map": "/static/js/327.748d8c2d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.69fd7c44.css",
-    "static/js/main.a3f7dd48.js"
+    "static/js/main.306ed56f.js"
   ]
 }
