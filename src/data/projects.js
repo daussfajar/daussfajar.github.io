@@ -185,7 +185,7 @@ export const projectsData = [
 			title: 'Related Projects',
 			Projects: [
 				{
-					id: 1,
+					id: 3,
 					title: 'Student Portal',
 					img: StudentPortalApp,
 					link: '/projects/3',
