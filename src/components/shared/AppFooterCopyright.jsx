@@ -15,7 +15,7 @@ function AppFooterCopyright() {
 						}
 					}
 				>
-					Created by <b>Fajar Firdaus</b> with <b>Tailwind CSS</b>
+					Created by <b>Fajar Firdaus</b> with <b>React & Tailwind CSS</b>.
 				</p>
 			</div>
 		</div>

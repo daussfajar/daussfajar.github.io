@@ -19,44 +19,47 @@ const ProjectsGrid = () => {
 		<section className="mt-10 py-5">
 			<div className="text-center">
 				<p className="font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light">
-					Projects portfolio
+					Projects Portfolio
 				</p>
 			</div>
 
 			<div className="mt-6 mb-4">
 				<h3
 					className="font-general-regular 
-                        text-center text-secondary-dark
-                        dark:text-ternary-light
-                        text-md
-                        sm:text-xl
-                        mb-3
-                        "
+            text-center text-secondary-dark
+            dark:text-ternary-light
+            text-md
+            sm:text-xl
+            mb-3
+            "
 				>
 					Search projects by title or filter by category
 				</h3>
 				<div
 					className="
-                        flex
-                        justify-between
-                        border-b border-primary-light
-                        dark:border-secondary-dark
-                        pb-3
-                        gap-3
-                        "
+            flex
+            flex-col
+            sm:flex-row
+            justify-between
+            border-b border-primary-light
+            dark:border-secondary-dark
+            pb-3
+            gap-3
+            overflow-x-auto
+        "
 				>
 					<div className="flex justify-between gap-2">
 						<span
 							className="
-                                hidden
-                                sm:block
-                                bg-primary-light
-                                dark:bg-ternary-dark
-                                p-2.5
-                                shadow-sm
-                                rounded-xl
-                                cursor-pointer
-                                "
+                    hidden
+                    sm:block
+                    bg-primary-light
+                    dark:bg-ternary-dark
+                    p-2.5
+                    shadow-sm
+                    rounded-xl
+                    cursor-pointer
+                "
 						>
 							<FiSearch className="text-ternary-dark dark:text-ternary-light w-5 h-5"></FiSearch>
 						</span>
@@ -65,21 +68,21 @@ const ProjectsGrid = () => {
 								setSearchProject(e.target.value);
 							}}
 							className="font-general-medium 
-                                pl-3
-                                pr-1
-                                sm:px-4
-                                py-2
-                                border 
-                            border-gray-200
-                                dark:border-secondary-dark
-                                rounded-lg
-                                text-sm
-                                sm:text-md
-                                bg-secondary-light
-                                dark:bg-ternary-dark
-                                text-primary-dark
-                                dark:text-ternary-light
-                                "
+                    pl-3
+                    pr-1
+                    sm:px-4
+                    py-2
+                    border 
+                    border-gray-200
+                    dark:border-secondary-dark
+                    rounded-lg
+                    text-sm
+                    sm:text-md
+                    bg-secondary-light
+                    dark:bg-ternary-dark
+                    text-primary-dark
+                    dark:text-ternary-light
+                "
 							id="name"
 							name="name"
 							type="search"

@@ -6,9 +6,13 @@ import { SingleProjectProvider } from '../context/SingleProjectContext';
 import { motion } from 'framer-motion';
 import { useEffect, useState } from "react";
 import { projectsData } from '../data/projects';
+import { useParams } from 'react-router-dom';
 
 const ProjectSingle = () => {
-	const projectId = window.location.pathname.split("/")[2];
+	// const projectId = window.location.pathname.split("/")[2];
+	const params = useParams();
+	const projectId = params.id;
+	
 	const [project, setProject] = useState(null);
 	
 	useEffect(() => {
