@@ -22,7 +22,12 @@ import StudentPortalImage4 from '../images/project/student_portal-4.png';
 import StudentPortalImage5 from '../images/project/student_portal-5.png';
 import StudentPortalImage6 from '../images/project/student_portal-6.png';
 
-// import PropanSalesForce from '../images/project/propan_sales_analyzer.jpg';
+import XYZFutsalApp from '../images/project/xyz_futsal.png';
+import XYZFutsalImage1 from '../images/project/xyz_futsal_1.png';
+import XYZFutsalImage2 from '../images/project/xyz_futsal_2.png';
+import XYZFutsalImage3 from '../images/project/xyz_futsal_3.png';
+import XYZFutsalImage4 from '../images/project/xyz_futsal_4.png';
+import XYZFutsalImage5 from '../images/project/xyz_futsal_5.png';
 
 import EGIHelpdeskApp from '../images/project/egi_helpdesk.jpg';
 import EGIHelpdeskImage1 from '../images/project/egi_helpdesk-1.png';
@@ -407,7 +412,7 @@ export const projectsData = [
 			],
 			ObjectivesHeading: 'Objective',
 			ObjectivesDetails:
-				'Designing and building Student Portal system at Universitas Pembangunan Jaya with a reliable content management system module and designing applications for students.',
+				'Designing and building a Student Portal system for Universitas Pembangunan Jaya.',
 			Technologies: [
 				{
 					title: 'Tools & Technologies',
@@ -424,6 +429,51 @@ export const projectsData = [
 			],
 			ProjectDetailsHeading: 'Challenges:',
 			ProjectDetails: [
+				{
+					id: 1,
+					details: `
+					<ol style="list-style: decimal;margin-left:20px;font-size:14px;">
+						<li style="font-weight:bold;">
+						<b>
+							Designing a User-Friendly Interface:
+						</b>
+						<ul style="list-style:disc;padding-inline-start:30px;font-weight:normal;">
+							<li>
+							<b>Requirement Analysis:</b> Understanding the needs and preferences of users.
+							</li>
+							<li>
+							<b>Design:</b> Creating a visually appealing and intuitive interface.
+							</li>
+							<li>
+							<b>Development:</b> Implementing user-friendly features and functionalities.
+							</li>
+							<li>
+							<b>Testing:</b> Ensuring the interface is easy to use and navigate.
+							</li>
+						</ul>
+						</li>
+						<li style="font-weight:bold;">
+							<b>
+								Implementing Features for Student Needs:
+							</b>
+							<ul style="list-style:disc;padding-inline-start:30px;font-weight:normal;">
+								<li>
+									<b>Requirement Analysis:</b> Identifying the key features and functionalities for student use.
+								</li>
+								<li>
+									<b>Design:</b> Creating a structured system for student interaction and information access.
+								</li>
+								<li>
+									<b>Development:</b> Coding and integrating student-centric features into the platform.
+								</li>
+								<li>
+									<b>Testing:</b> Validating the system for usability and functionality.
+								</li>
+							</ul>
+						</li>
+					</ol>
+					`,
+				}
 			],
 			SocialSharingHeading: '',
 			SocialSharing: [
@@ -561,6 +611,157 @@ export const projectsData = [
 								</li>
 								<li>
 									<b>Testing:</b> Validating the ticketing system for accuracy and efficiency.
+								</li>
+							</ul>
+						</li>
+						<li style="font-weight:bold;">
+							<b>
+								Enhancing User Experience:
+							</b>
+							<ul style="list-style:disc;padding-inline-start:30px;font-weight:normal;">
+								<li>
+									<b>Requirement Analysis:</b> Understanding user needs and preferences for a seamless experience.
+								</li>
+								<li>
+									<b>Design:</b> Creating features and functionalities to enhance user interaction.
+								</li>
+								<li>
+									<b>Development:</b> Implementing user-centric elements for improved usability.
+								</li>
+								<li>
+									<b>Testing:</b> Ensuring a positive user experience through testing and feedback.
+								</li>
+							</ul>
+						</li>
+					</ol>
+					`,
+				}
+			],
+			SocialSharingHeading: '',
+			SocialSharing: [
+				
+			],
+		},
+		RelatedProject: {
+			title: 'Other Projects',
+			Projects: [
+			],
+		},
+	},
+	{
+		id: 5,
+		title: 'Futsal Booking',
+		category: 'Web Application',
+		img: XYZFutsalApp,
+		ProjectHeader: {
+			title: 'Futsal Booking',
+			publishDate: 'Mar 20, 2024',
+			tags: 'Full Stack / Web Application',
+		},
+		ProjectImages: [
+			{
+				id: 1,
+				title: null,
+				img: XYZFutsalImage1,
+			},
+			{
+				id: 2,
+				title: null,
+				img: XYZFutsalImage2,
+			},
+			{
+				id: 3,
+				title: null,
+				img: XYZFutsalImage3,
+			},
+			{
+				id: 4,
+				title: null,
+				img: XYZFutsalImage4,
+			},
+			{
+				id: 5,
+				title: null,
+				img: XYZFutsalImage5,
+			},
+		],
+		ProjectInfo: {
+			ClientHeading: 'About Client',
+			CompanyInfo: [
+				{
+					id: 1,
+					title: 'Name',
+					details: 'Dimas Riski Nugroho',
+				},
+				{
+					id: 2,
+					title: 'Services',
+					details: 'Full Stack Development',
+				},
+				{
+					id: 4,
+					title: 'Email',
+					details: '-',
+				},
+			],
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails:
+				'Designing and building Futsal Booking System for XYZ Futsal.',
+			Technologies: [
+				{
+					title: 'Tools & Technologies',
+					techs: [
+						'HTML',
+						'CSS',
+						'JavaScript',
+						'CodeIgniter',
+						'Bootstrap',
+						'PHP',
+						'MySQL',
+					],
+				},
+			],
+			ProjectDetailsHeading: 'Challenges:',
+			ProjectDetails: [
+				{
+					id: 1,
+					details: `
+					<ol style="list-style: decimal;margin-left:20px;font-size:14px;">
+						<li style="font-weight:bold;">
+						<b>
+							Designing a User-Friendly Interface:
+						</b>
+						<ul style="list-style:disc;padding-inline-start:30px;font-weight:normal;">
+							<li>
+							<b>Requirement Analysis:</b> Understanding the needs and preferences of users.
+							</li>
+							<li>
+							<b>Design:</b> Creating a visually appealing and intuitive interface.
+							</li>
+							<li>
+							<b>Development:</b> Implementing user-friendly features and functionalities.
+							</li>
+							<li>
+							<b>Testing:</b> Ensuring the interface is easy to use and navigate.
+							</li>
+						</ul>
+						</li>
+						<li style="font-weight:bold;">
+							<b>
+								Implementing Booking System:
+							</b>
+							<ul style="list-style:disc;padding-inline-start:30px;font-weight:normal;">
+								<li>
+									<b>Requirement Analysis:</b> Identifying the key features and requirements for a booking system.
+								</li>
+								<li>
+									<b>Design:</b> Creating a structured system for managing and tracking bookings.
+								</li>
+								<li>
+									<b>Development:</b> Coding and integrating booking functionalities into the platform.
+								</li>
+								<li>
+									<b>Testing:</b> Validating the booking system for accuracy and efficiency.
 								</li>
 							</ul>
 						</li>
