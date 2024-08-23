@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.69fd7c44.css",
-    "main.js": "/static/js/main.27fdb519.js",
+    "main.js": "/static/js/main.863d3a35.js",
     "static/js/897.f33cba88.chunk.js": "/static/js/897.f33cba88.chunk.js",
     "static/js/72.79282d94.chunk.js": "/static/js/72.79282d94.chunk.js",
     "static/js/849.28694fee.chunk.js": "/static/js/849.28694fee.chunk.js",
@@ -12,11 +12,10 @@
     "static/js/712.3d710f8d.chunk.js": "/static/js/712.3d710f8d.chunk.js",
     "static/css/19.201ee0f0.chunk.css": "/static/css/19.201ee0f0.chunk.css",
     "static/js/19.5a290533.chunk.js": "/static/js/19.5a290533.chunk.js",
-    "static/js/357.7d0d07cd.chunk.js": "/static/js/357.7d0d07cd.chunk.js",
+    "static/js/357.52bab462.chunk.js": "/static/js/357.52bab462.chunk.js",
     "static/media/xyz_futsal_1.png": "/static/media/xyz_futsal_1.fbb06ec9da48dde1f7c6.png",
     "static/media/student_portal-1.png": "/static/media/student_portal-1.99251e1d31b4cd39579b.png",
     "static/media/xyz_futsal_2.png": "/static/media/xyz_futsal_2.b4b37bf8be0e63179106.png",
-    "static/media/resto_cilupba.png": "/static/media/resto_cilupba.dddb0880d48deae1caa0.png",
     "static/media/mbkm-1.png": "/static/media/mbkm-1.032af78551f32ced744f.png",
     "static/media/xyz_futsal_4.png": "/static/media/xyz_futsal_4.254a19dcb60089ff80d7.png",
     "static/media/uc_career-7.png": "/static/media/uc_career-7.35624ec86a79245a0826.png",
@@ -61,6 +60,7 @@
     "static/media/uc_ocw_main.png": "/static/media/uc_ocw_main.5de1dd1adbace18137a5.png",
     "static/media/resto_cilupba_1.png": "/static/media/resto_cilupba_1.c5296bd591145fed328c.png",
     "static/media/mbkm-7.png": "/static/media/mbkm-7.b8ab3f95b785fabc66a8.png",
+    "static/media/resto_cilupba.png": "/static/media/resto_cilupba.64e1db4e098639771e6d.png",
     "static/media/GeneralSans-LightItalic.ttf": "/static/media/GeneralSans-LightItalic.01f39fefaea383e46bde.ttf",
     "static/media/GeneralSans-MediumItalic.ttf": "/static/media/GeneralSans-MediumItalic.8eb302fc9872cba25291.ttf",
     "static/media/GeneralSans-Italic.ttf": "/static/media/GeneralSans-Italic.61b5c6351467c3e67236.ttf",
@@ -116,7 +116,7 @@
     "static/media/logo_transparent_dark.svg": "/static/media/logo_transparent_dark.aa43519b2f11dea04ebfa31387786ea7.svg",
     "index.html": "/index.html",
     "main.69fd7c44.css.map": "/static/css/main.69fd7c44.css.map",
-    "main.27fdb519.js.map": "/static/js/main.27fdb519.js.map",
+    "main.863d3a35.js.map": "/static/js/main.863d3a35.js.map",
     "897.f33cba88.chunk.js.map": "/static/js/897.f33cba88.chunk.js.map",
     "72.79282d94.chunk.js.map": "/static/js/72.79282d94.chunk.js.map",
     "849.28694fee.chunk.js.map": "/static/js/849.28694fee.chunk.js.map",
@@ -127,10 +127,10 @@
     "712.3d710f8d.chunk.js.map": "/static/js/712.3d710f8d.chunk.js.map",
     "19.201ee0f0.chunk.css.map": "/static/css/19.201ee0f0.chunk.css.map",
     "19.5a290533.chunk.js.map": "/static/js/19.5a290533.chunk.js.map",
-    "357.7d0d07cd.chunk.js.map": "/static/js/357.7d0d07cd.chunk.js.map"
+    "357.52bab462.chunk.js.map": "/static/js/357.52bab462.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.69fd7c44.css",
-    "static/js/main.27fdb519.js"
+    "static/js/main.863d3a35.js"
   ]
 }
