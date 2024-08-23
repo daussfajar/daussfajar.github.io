@@ -37,6 +37,11 @@ import EGIHelpdeskImage4 from '../images/project/egi_helpdesk-4.png';
 import EGIHelpdeskImage5 from '../images/project/egi_helpdesk-5.png';
 import EGIHelpdeskImage6 from '../images/project/egi_helpdesk-6.png';
 
+import UCOCWApp from '../images/project/uc_ocw_main.png';
+import UCOCWImage1 from '../images/project/uc_ocw-1.png';
+import UCOCWImage2 from '../images/project/uc_ocw-2.png';
+import UCOCWImage3 from '../images/project/uc_ocw-3.png';
+
 export const projectsData = [
 	{
 		id: 1,
@@ -798,7 +803,92 @@ export const projectsData = [
 			Projects: [
 			],
 		},
-	}
+	},
+	{
+		id: 6,
+		title: 'Open Course Ware',
+		category: 'Web Application',
+		img: UCOCWApp,
+		ProjectHeader: {
+			title: 'Open Course Ware',
+			publishDate: 'May 14, 2024',
+			tags: 'Full Stack / Web Application',
+		},
+		ProjectImages: [
+			{
+				id: 1,
+				title: null,
+				img: UCOCWImage1,
+			},
+			{
+				id: 2,
+				title: null,
+				img: UCOCWImage2,
+			},
+			{
+				id: 3,
+				title: null,
+				img: UCOCWImage3,
+			}
+		],
+		ProjectInfo: {
+			ClientHeading: 'About Project',
+			CompanyInfo: [
+				{
+					id: 1,
+					title: 'Name',
+					details: 'Open Course Ware (OCW)',
+				},
+				{
+					id: 2,
+					title: 'As',
+					details: 'Full Stack Developer',
+				},
+				{
+					id: 4,
+					title: 'Website',
+					details: 'https://ocw.dkproject.my.id/',
+				},
+			],
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails:
+				'Designing and building an Open Courseware (OCW) application used to provide free teaching materials for college and university levels.',
+			Technologies: [
+				{
+					title: 'Tools & Technologies',
+					techs: [
+						'HTML',
+						'CSS',
+						'JavaScript',
+						'CodeIgniter',
+						'Bootstrap',
+						'PHP',
+						'MySQL',
+					],
+				},
+			],
+			ProjectDetailsHeading: 'Description:',
+			ProjectDetails: [
+				{
+					id: 1,
+					details: `
+					<p>
+						Designing and building OCW application for Ciputra University. The application is used to provide free teaching materials for college and university levels. The application is designed to be user-friendly and easy to navigate, with a focus on providing high-quality educational content.
+					</p>
+					`
+				}
+			],
+			SocialSharingHeading: '',
+			SocialSharing: [
+				
+			],
+		},
+		RelatedProject: {
+			title: 'Other Projects',
+			Projects: [
+			],
+		},
+	},
 ];
 
 export default projectsData;
