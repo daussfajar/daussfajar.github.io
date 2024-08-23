@@ -42,6 +42,12 @@ import UCOCWImage1 from '../images/project/uc_ocw-1.png';
 import UCOCWImage2 from '../images/project/uc_ocw-2.png';
 import UCOCWImage3 from '../images/project/uc_ocw-3.png';
 
+import RestoCilupbaApp from '../images/project/resto_cilupba.png';
+import RestoCilupbaImage1 from '../images/project/resto_cilupba_1.png';
+import RestoCilupbaImage2 from '../images/project/resto_cilupba_2.png';
+import RestoCilupbaImage3 from '../images/project/resto_cilupba_3.png';
+import RestoCilupbaImage4 from '../images/project/resto_cilupba_4.png';
+
 export const projectsData = [
 	{
 		id: 1,
@@ -200,12 +206,6 @@ export const projectsData = [
 					img: StudentPortalApp,
 					link: '/projects/3',
 				},
-				{
-					id: 2,
-					title: 'Career Center',
-					img: UCCareerCenterApp,
-					link: '/projects/2',
-				}
 			],
 		},
 	},
@@ -345,7 +345,12 @@ export const projectsData = [
 		RelatedProject: {
 			title: 'Related Projects',
 			Projects: [
-				
+				{
+					id: 6,
+					title: 'Open Course Ware',
+					img: UCOCWApp,
+					link: '/projects/6',
+				}
 			],
 		},
 	},
@@ -886,9 +891,100 @@ export const projectsData = [
 		RelatedProject: {
 			title: 'Other Projects',
 			Projects: [
+				{
+					id: 2,
+					title: 'Career Center',
+					img: UCCareerCenterApp,
+					link: '/projects/2',
+				}
 			],
 		},
 	},
+	{
+		id: 7,
+		title: 'Resto App',
+		category: 'Web Application',
+		img: RestoCilupbaApp,
+		ProjectHeader: {
+			title: 'Resto App',
+			publishDate: 'Feb 2, 2023',
+			tags: 'Full Stack / Web Application',
+		},
+		ProjectImages: [
+			{
+				id: 1,
+				title: null,
+				img: RestoCilupbaImage1,
+			},
+			{
+				id: 2,
+				title: null,
+				img: RestoCilupbaImage2,
+			},
+			{
+				id: 3,
+				title: null,
+				img: RestoCilupbaImage3,
+			},
+			{
+				id: 4,
+				title: null,
+				img: RestoCilupbaImage4,
+			}
+		],
+		ProjectInfo: {
+			ClientHeading: 'About Project',
+			CompanyInfo: [
+				{
+					id: 1,
+					title: 'Name',
+					details: 'Resto Cilupba',
+				},
+				{
+					id: 2,
+					title: 'Project Type',
+					details: 'Lecture Assignments',
+				},
+			],
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails:
+				'Designing and building a Restaurant Application for Resto Cilupba.',
+			Technologies: [
+				{
+					title: 'Tools & Technologies',
+					techs: [
+						'HTML',
+						'CSS',
+						'JavaScript',
+						'CodeIgniter',
+						'Bootstrap',
+						'PHP',
+						'MySQL',
+					],
+				},
+			],
+			ProjectDetailsHeading: 'Description:',
+			ProjectDetails: [
+				{
+					id: 1,
+					details: `
+					<p>
+						Design and build a Restaurant Application for Resto Cilupba. This application is only for Web Design and Programming course assignments.
+					</p>
+					`
+				}
+			],
+			SocialSharingHeading: '',
+			SocialSharing: [
+				
+			],
+		},
+		RelatedProject: {
+			title: 'Other Projects',
+			Projects: [
+			],
+		},
+	}
 ];
 
 export default projectsData;

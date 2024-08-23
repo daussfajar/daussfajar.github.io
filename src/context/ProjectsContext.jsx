@@ -1,45 +1,55 @@
 import { useState, createContext } from 'react';
 import { projectsData } from '../data/projects';
 
-// Create projects context
 export const ProjectsContext = createContext();
 
-// Create the projects context provider
 export const ProjectsProvider = (props) => {
-	const [projects, setProjects] = useState(projectsData);
+	const [projects, setProjects] = useState(projectsData.slice(0, 6));
+	const [visibleProjectsCount, setVisibleProjectsCount] = useState(6);
 	const [searchProject, setSearchProject] = useState('');
 	const [selectProject, setSelectProject] = useState('');
+	const [filteredProjects, setFilteredProjects] = useState(projectsData);
 
-	// Search projects by project title
-	const searchProjectsByTitle = projects.filter((item) => {
-		const result = item.title
-			.toLowerCase()
-			.includes(searchProject.toLowerCase())
-			? item
-			: searchProject === ''
-			? item
-			: '';
-		return result;
-	});
+	const loadMoreProjects = () => {
+		setVisibleProjectsCount(prevCount => {
+			const newCount = prevCount + 6;
+			setProjects(filteredProjects.slice(0, newCount));
+			return newCount;
+		});
+	};
 
-	// Select projects by project category
-	const selectProjectsByCategory = projects.filter((item) => {
-		let category =
-			item.category.charAt(0).toUpperCase() + item.category.slice(1);
-		return category.includes(selectProject);
-	});
+	const hasMoreProjects = visibleProjectsCount < filteredProjects.length;
+
+	const searchProjectsByTitle = (title) => {
+		const result = projectsData.filter(item =>
+			item.title.toLowerCase().includes(title.toLowerCase())
+		);
+		setFilteredProjects(result);
+		setProjects(result.slice(0, 6));
+		setVisibleProjectsCount(6);
+	};
+
+	const selectProjectsByCategory = (category) => {
+		const result = projectsData.filter(item =>
+			item.category.toLowerCase() === category.toLowerCase()
+		);
+		setFilteredProjects(result);
+		setProjects(result.slice(0, 6));
+		setVisibleProjectsCount(6);
+	};
 
 	return (
 		<ProjectsContext.Provider
 			value={{
 				projects,
-				setProjects,
 				searchProject,
 				setSearchProject,
 				searchProjectsByTitle,
 				selectProject,
 				setSelectProject,
 				selectProjectsByCategory,
+				loadMoreProjects,
+				hasMoreProjects,
 			}}
 		>
 			{props.children}

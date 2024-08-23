@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
 import Lightbox from 'yet-another-react-lightbox';
+import { Oval } from 'react-loader-spinner';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'yet-another-react-lightbox/styles.css';
@@ -13,6 +14,12 @@ const ProjectGallery = ({ project }) => {
 	const { singleProjectData } = useContext(SingleProjectContext);
 	const [lightboxOpen, setLightboxOpen] = useState(false);
 	const [currentIndex, setCurrentIndex] = useState(0);
+
+	const [imageLoading, setImageLoading] = useState(true);
+
+	const handleImageLoaded = () => {
+		setImageLoading(false);
+	};
 
 	if (!project) return null;
 
@@ -45,13 +52,20 @@ const ProjectGallery = ({ project }) => {
 				>
 					{singleProjectData.ProjectImages.map((img, index) => (
 						<SwiperSlide key={img.id} className="w-full">
+							{imageLoading && (
+								<div className="flex justify-center items-center h-44">
+									<Oval color="#2563EB" height={50} width={50} />
+								</div>
+							)}
 							<img
 								src={img.img}
 								className="w-full h-full rounded-xl cursor-pointer shadow-lg object-cover"
 								alt={img.title}
+								onLoad={handleImageLoaded}
 								style={{ 
 									height: '200px',
-									transition: 'transform 0.5s ease' 
+									transition: 'transform 0.5s ease',
+									display: `${imageLoading ? 'none' : 'block'}`, 
 								}}
 								onMouseEnter={(e) => {
 									e.currentTarget.style.transform = 'scale(1.05)';
