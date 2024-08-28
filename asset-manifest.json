@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.69fd7c44.css",
-    "main.js": "/static/js/main.863d3a35.js",
-    "static/js/897.f33cba88.chunk.js": "/static/js/897.f33cba88.chunk.js",
+    "main.js": "/static/js/main.01f57de0.js",
+    "static/css/942.8f2772c4.chunk.css": "/static/css/942.8f2772c4.chunk.css",
+    "static/js/942.aeb04651.chunk.js": "/static/js/942.aeb04651.chunk.js",
     "static/js/72.79282d94.chunk.js": "/static/js/72.79282d94.chunk.js",
     "static/js/849.28694fee.chunk.js": "/static/js/849.28694fee.chunk.js",
     "static/js/283.f8269170.chunk.js": "/static/js/283.f8269170.chunk.js",
@@ -10,8 +11,9 @@
     "static/js/44.86f59792.chunk.js": "/static/js/44.86f59792.chunk.js",
     "static/js/453.4582b3e9.chunk.js": "/static/js/453.4582b3e9.chunk.js",
     "static/js/712.3d710f8d.chunk.js": "/static/js/712.3d710f8d.chunk.js",
-    "static/css/19.201ee0f0.chunk.css": "/static/css/19.201ee0f0.chunk.css",
-    "static/js/19.5a290533.chunk.js": "/static/js/19.5a290533.chunk.js",
+    "static/js/939.1884a61f.chunk.js": "/static/js/939.1884a61f.chunk.js",
+    "static/css/157.dfdc3c4a.chunk.css": "/static/css/157.dfdc3c4a.chunk.css",
+    "static/js/157.d922718c.chunk.js": "/static/js/157.d922718c.chunk.js",
     "static/js/357.52bab462.chunk.js": "/static/js/357.52bab462.chunk.js",
     "static/media/xyz_futsal_1.png": "/static/media/xyz_futsal_1.fbb06ec9da48dde1f7c6.png",
     "static/media/student_portal-1.png": "/static/media/student_portal-1.99251e1d31b4cd39579b.png",
@@ -41,6 +43,7 @@
     "static/media/mbkm-6.png": "/static/media/mbkm-6.c3372e0edaeac9b77858.png",
     "static/media/egi_helpdesk.jpg": "/static/media/egi_helpdesk.a4f3fbbb4350811490b0.jpg",
     "static/media/mbkmupj.jpg": "/static/media/mbkmupj.78dca92c2399bb733168.jpg",
+    "static/media/codeigniter.png": "/static/media/codeigniter.0233149bddfd2c2018e8.png",
     "static/media/uc_career-9.png": "/static/media/uc_career-9.7ba76711c83f6ec9d541.png",
     "static/media/upj_student_portal.jpg": "/static/media/upj_student_portal.20a1c5d239d0e7b3bbac.jpg",
     "static/media/egi_helpdesk-5.png": "/static/media/egi_helpdesk-5.8ee28471a4aa13f58dbd.png",
@@ -78,6 +81,7 @@
     "static/media/mobile-project-2.jpg": "/static/media/mobile-project-2.a5aae7867760d0c29dd2.jpg",
     "static/media/nodejs.png": "/static/media/nodejs.abfaef34ea49d0c7cd3c.png",
     "static/media/mobile-project-1.jpg": "/static/media/mobile-project-1.0aa0cb76fed1b95c21d8.jpg",
+    "static/media/java.png": "/static/media/java.6c1a3b5f7e2d535bff5b.png",
     "static/media/web-project-1.jpg": "/static/media/web-project-1.dbc2198e771ad7e1d3ea.jpg",
     "static/media/GeneralSans-VariableItalic.woff2": "/static/media/GeneralSans-VariableItalic.8d45d5d416206c70daeb.woff2",
     "static/media/flutter.png": "/static/media/flutter.da30891faf956aa5ea5b.png",
@@ -116,8 +120,9 @@
     "static/media/logo_transparent_dark.svg": "/static/media/logo_transparent_dark.aa43519b2f11dea04ebfa31387786ea7.svg",
     "index.html": "/index.html",
     "main.69fd7c44.css.map": "/static/css/main.69fd7c44.css.map",
-    "main.863d3a35.js.map": "/static/js/main.863d3a35.js.map",
-    "897.f33cba88.chunk.js.map": "/static/js/897.f33cba88.chunk.js.map",
+    "main.01f57de0.js.map": "/static/js/main.01f57de0.js.map",
+    "942.8f2772c4.chunk.css.map": "/static/css/942.8f2772c4.chunk.css.map",
+    "942.aeb04651.chunk.js.map": "/static/js/942.aeb04651.chunk.js.map",
     "72.79282d94.chunk.js.map": "/static/js/72.79282d94.chunk.js.map",
     "849.28694fee.chunk.js.map": "/static/js/849.28694fee.chunk.js.map",
     "283.f8269170.chunk.js.map": "/static/js/283.f8269170.chunk.js.map",
@@ -125,12 +130,13 @@
     "44.86f59792.chunk.js.map": "/static/js/44.86f59792.chunk.js.map",
     "453.4582b3e9.chunk.js.map": "/static/js/453.4582b3e9.chunk.js.map",
     "712.3d710f8d.chunk.js.map": "/static/js/712.3d710f8d.chunk.js.map",
-    "19.201ee0f0.chunk.css.map": "/static/css/19.201ee0f0.chunk.css.map",
-    "19.5a290533.chunk.js.map": "/static/js/19.5a290533.chunk.js.map",
+    "939.1884a61f.chunk.js.map": "/static/js/939.1884a61f.chunk.js.map",
+    "157.dfdc3c4a.chunk.css.map": "/static/css/157.dfdc3c4a.chunk.css.map",
+    "157.d922718c.chunk.js.map": "/static/js/157.d922718c.chunk.js.map",
     "357.52bab462.chunk.js.map": "/static/js/357.52bab462.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.69fd7c44.css",
-    "static/js/main.863d3a35.js"
+    "static/js/main.01f57de0.js"
   ]
 }
