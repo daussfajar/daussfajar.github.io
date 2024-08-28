@@ -2,6 +2,11 @@ import { useContext } from 'react';
 import AboutMeContext from '../../context/AboutMeContext';
 import AboutClientSingle from './AboutClientSingle';
 
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Autoplay } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/navigation';
+
 const AboutEducations = () => {
     const { educationsData, educationsHeading } = useContext(AboutMeContext);
     const { skillsData, skillsHeading } = useContext(AboutMeContext);
@@ -23,15 +28,44 @@ const AboutEducations = () => {
                 }}>
                     Here are some of the technical skills that I have mastered, including programming languages, frameworks, and tools.
                 </p>
-                <div className="grid grid-cols-2 sm:grid-cols-4 gap-4" style={{alignItems:'center'}}>
+                <Swiper
+                    modules={[Navigation, Autoplay]}
+                    navigation
+                    spaceBetween={30}
+                    slidesPerView={2}
+                    breakpoints={{
+						640: {
+							slidesPerView: 1, 
+							spaceBetween: 20,
+						},
+                        768: {
+                            slidesPerView: 2,
+                            spaceBetween: 20,
+                        },
+						1024: {
+							slidesPerView: 5,
+							spaceBetween: 30,
+						},
+					}}
+                    autoplay={{
+                        delay: 3000,
+                        disableOnInteraction: false,
+                    }}
+                    loop={true}
+                >
                     {skillsData.map((client) => (
-                        <AboutClientSingle
-                            title={client.title}
-                            image={client.img}
-                            key={client.id}
-                        />
+                        <SwiperSlide key={client.id} style={{
+                            display: 'flex',
+                            justifyContent: 'center',
+                            height: '150px'
+                        }}>
+                            <AboutClientSingle
+                                title={client.title}
+                                image={client.img}
+                            />
+                        </SwiperSlide>
                     ))}
-                </div>
+                </Swiper>
             </div>
             <div className="mt-10 sm:mt-10">
                 <p className="font-general-medium text-2xl sm:text-3xl text-center text-primary-dark dark:text-primary-light">
@@ -48,15 +82,44 @@ const AboutEducations = () => {
                 }}>
                     I have studied and am currently studying at the following programs and universities
                 </p>
-                <div className="grid grid-cols-2 sm:grid-cols-4 gap-4" style={{alignItems: 'center'}}>
+                <Swiper
+                    modules={[Navigation, Autoplay]}
+                    navigation
+                    spaceBetween={30}
+                    slidesPerView={2}
+                    breakpoints={{
+                        640: {
+                            slidesPerView: 1,
+                            spaceBetween: 20,
+                        },
+                        768: {
+                            slidesPerView: 2,
+                            spaceBetween: 20,
+                        },
+                        1024: {
+                            slidesPerView: 3,
+                            spaceBetween: 30,
+                        },
+                    }}
+                    autoplay={{
+                        delay: 4000,
+                        disableOnInteraction: false,
+                    }}
+                    loop={true}
+                >
                     {educationsData.map((client) => (
-                        <AboutClientSingle
-                            title={client.title}
-                            image={client.img}
-                            key={client.id}
-                        />
+                        <SwiperSlide key={client.id} style={{
+                            display: 'flex',
+                            justifyContent: 'center',
+                            height: '150px'
+                        }}>
+                            <AboutClientSingle
+                                title={client.title}
+                                image={client.img}
+                            />
+                        </SwiperSlide>
                     ))}
-                </div>
+                </Swiper>
             </div>
         </>
     );
