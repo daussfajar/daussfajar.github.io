@@ -26,7 +26,7 @@ const AboutEducations = () => {
                     marginTop: '0.5rem',
                     marginBottom: '1rem'
                 }}>
-                    Here are some of the technical skills that I have mastered, including programming languages, frameworks, and tools.
+                    I have experience in the following technologies and tools, and I am always eager to learn new ones.
                 </p>
                 <Swiper
                     modules={[Navigation, Autoplay]}
@@ -78,9 +78,9 @@ const AboutEducations = () => {
                     cursor: 'default',
                     textAlign: 'center',
                     marginTop: '0.5rem',
-                    marginBottom: '1rem'
+                    marginBottom: '3rem'
                 }}>
-                    I have studied and am currently studying at the following programs and universities
+                    I have studied and am currently studying at the following programs and universities, and I am always eager to learn new things.
                 </p>
                 <Swiper
                     modules={[Navigation, Autoplay]}

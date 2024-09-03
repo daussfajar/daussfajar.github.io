@@ -1,11 +1,17 @@
+import { useState } from 'react';
 import useThemeSwitcher from '../../hooks/useThemeSwitcher';
 import { FiArrowDownCircle } from 'react-icons/fi';
-import profile from '../../images/profile.jpg';
-
 import { motion } from 'framer-motion';
+import { Oval } from 'react-loader-spinner';
+import profile from '../../images/profile.jpg';
 
 const AppBanner = () => {
 	const [activeTheme] = useThemeSwitcher();
+	const [isLoading, setIsLoading] = useState(true);
+
+	const handleImageLoad = () => {
+		setIsLoading(false);
+	};
 
 	return (
 		<motion.section
@@ -68,22 +74,39 @@ const AppBanner = () => {
 				</motion.div>
 			</div>
 			<motion.div
-				initial={{ opacity: 0, y: -180 }}
+				/*initial={{ opacity: 0, y: -180 }}
 				animate={{ opacity: 1, y: 0 }}
-				transition={{ ease: 'easeInOut', duration: 0.9, delay: 0.2 }}
+				transition={{ ease: 'easeInOut', duration: 0.9, delay: 0.2 }}*/
 				className="w-full sm:w-2/3 text-right float-right mt-8 sm:mt-0"
 			>
 				<center>
-					<img
-						src={
-							activeTheme === 'dark' ? profile : profile
-						}
-						alt="Developer"
-						style={{
-							maxWidth: '70%',
-						}}
-						className="rounded-lg shadow-lg border-2 border-primary-light dark:border-secondary-dark"
-					/>
+					<div className="relative" style={{ maxWidth: '70%' }}>
+						{isLoading && (
+							<Oval
+								height={80}
+								width={80}
+								color="#4A90E2"
+								secondaryColor="#4A90E2"
+								strokeWidth={4}
+								strokeWidthSecondary={2}
+								style={{
+									FiAlignJustify: 'center',
+								}}
+							/>
+						)}						
+						<img
+							src={
+								activeTheme === 'dark' ? profile : profile
+							}
+							alt="Developer"
+							onLoad={handleImageLoad}
+							style={{
+								maxWidth: '100%',
+								display: isLoading ? 'none' : 'block',
+							}}
+							className="rounded-lg shadow-lg border-2 border-primary-light dark:border-secondary-dark"
+						/>
+					</div>
 				</center>
 			</motion.div>
 		</motion.section>

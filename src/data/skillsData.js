@@ -6,7 +6,7 @@ import Java from '../images/skills/java.png';
 import ReactJS from '../images/skills/react.png';
 import Codeigniter from '../images/skills/codeigniter.png';
 
-export const skillsHeading = 'Technical Skills'
+export const skillsHeading = 'Skills'
 
 export const skillsData = [
     {
