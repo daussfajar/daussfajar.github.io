@@ -16,7 +16,7 @@ const socialLinks = [
 	{
 		id: 2,
 		icon: <FiFacebook />,
-		url: 'https://www.facebook.com/daus.tersenyum/',
+		url: 'https://www.facebook.com/daussfajar28/',
 	},
 	{
 		id: 3,
