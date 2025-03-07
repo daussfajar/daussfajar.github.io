@@ -48,6 +48,22 @@ import RestoCilupbaImage2 from '../images/project/resto_cilupba_2.png';
 import RestoCilupbaImage3 from '../images/project/resto_cilupba_3.png';
 import RestoCilupbaImage4 from '../images/project/resto_cilupba_4.png';
 
+import SPAImage1 from '../images/project/spa-1.jpeg';
+import SPAImage2 from '../images/project/spa-2.png';
+import SPAImage3 from '../images/project/spa-3.png';
+import SPAImage4 from '../images/project/spa-4.png';
+import SPAImage5 from '../images/project/spa-5.png';
+import SPAImage6 from '../images/project/spa-6.png';
+import SPAImage7 from '../images/project/spa-7.png';
+import SPAImage8 from '../images/project/spa-8.png';
+import SPAImage9 from '../images/project/spa-9.png';
+
+import SimpulImage1 from '../images/project/simpul-1.jpeg';
+import SimpulImage2 from '../images/project/simpul-2.png';
+import SimpulImage3 from '../images/project/simpul-3.png';
+import SimpulImage4 from '../images/project/simpul-4.png';
+import SimpulImage5 from '../images/project/simpul-5.png';
+
 export const projectsData = [
 	{
 		id: 1,
@@ -984,7 +1000,298 @@ export const projectsData = [
 			Projects: [
 			],
 		},
-	}
+	},
+	{
+		id: 8,
+		title: 'Sistem Pencairan Anggaran',
+		category: 'Web Application',
+		img: SPAImage1,
+		ProjectHeader: {
+			title: 'Sistem Pencairan Anggaran',
+			publishDate: 'June 20, 2022',
+			tags: 'Full Stack / Web Application',
+		},
+		ProjectImages: [
+			{
+				id: 1,
+				title: null,
+				img: SPAImage2,
+			},
+			{
+				id: 2,
+				title: null,
+				img: SPAImage3,
+			},
+			{
+				id: 3,
+				title: null,
+				img: SPAImage4,
+			},
+			{
+				id: 4,
+				title: null,
+				img: SPAImage5,
+			},
+			{
+				id: 5,
+				title: null,
+				img: SPAImage6,
+			},
+			{
+				id: 6,
+				title: null,
+				img: SPAImage7,
+			},
+			{
+				id: 7,
+				title: null,
+				img: SPAImage8,
+			},
+			{
+				id: 8,
+				title: null,
+				img: SPAImage9,
+			},
+		],
+		ProjectInfo: {
+			ClientHeading: 'About Client',
+			CompanyInfo: [
+				{
+					id: 1,
+					title: 'Name',
+					details: 'Universitas Pembangunan Jaya',
+				},
+				{
+					id: 2,
+					title: 'Services',
+					details: 'Full Stack Development',
+				},
+				{
+					id: 3,
+					title: 'Website',
+					details: 'https://spa.upj.ac.id',
+				},
+				{
+					id: 4,
+					title: 'Email',
+					details: 'info@upj.ac.id',
+				},
+			],
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails:
+				'Designing and building Sistem Pencairan Anggaran system at Universitas Pembangunan Jaya which is used to manage the budget disbursement process.',
+			Technologies: [
+				{
+					title: 'Tools & Technologies',
+					techs: [
+						'HTML',
+						'CSS',
+						'JavaScript',
+						'CodeIgniter',
+						'Bootstrap',
+						'PHP',
+						'MySQL',
+					],
+				},
+			],
+			ProjectDetailsHeading: 'Challenges:',
+			ProjectDetails: [
+				{
+					id: 1,
+					details: `
+					<ol style="list-style: decimal;margin-left:20px;font-size:14px;">
+						<li>
+							<b>
+							Designing a User-Friendly Interface:
+							</b>
+							<br>
+							Designing a user-friendly interface for the Sistem Pencairan Anggaran system that is easy to navigate and use.
+						</li>
+						<li>	
+							<b>
+							Implementing Features for Budget Management:
+							</b>
+							<br>
+							Implementing features for budget management, including budget allocation, disbursement, and tracking.
+						</li>
+						<li>
+							<b>
+							Ensuring Data Security and Integrity:
+							</b>
+							<br>
+							Ensuring data security and integrity by implementing appropriate security measures and data validation.
+						</li>
+						<li>
+							<b>
+							Testing and Deployment:
+							</b>
+							<br>
+							Testing the system to ensure it works as expected and deploying it to the production environment.
+						</li>
+						<li>
+							<b>
+							Documentation and Maintenance:
+							</b>
+							<br>
+							Providing documentation for the system and ensuring it is maintained and updated regularly.
+						</li>
+						<li>
+							<b>
+							User Training and Support:
+							</b>
+							<br>
+							Providing training and support for users to ensure they can use the system effectively.
+						</li>
+						<li>
+							<b>
+							Integration with Existing Systems:
+							</b>
+							<br>
+							Ensuring the Sistem Pencairan Anggaran system integrates seamlessly with existing systems and processes.
+						</li>
+					</ol>
+					`,
+				}
+			],
+			SocialSharingHeading: '',
+			SocialSharing: [
+				
+			],
+		},
+		RelatedProject: {
+			title: 'Related Projects',
+			Projects: [
+
+			],
+		},
+	},
+	{
+		id: 9,
+		title: 'SiMPUL',
+		category: 'Web Application',
+		img: SimpulImage1,
+		ProjectHeader: {
+			title: 'Sistem Informasi Pegawai Unggul',
+			publishDate: 'April 20, 2023',
+			tags: 'Full Stack / Web Application',
+		},
+		ProjectImages: [
+			{
+				id: 1,
+				title: null,
+				img: SimpulImage2,
+			},
+			{
+				id: 2,
+				title: null,
+				img: SimpulImage3,
+			},
+			{
+				id: 3,
+				title: null,
+				img: SimpulImage4,
+			},
+			{
+				id: 4,
+				title: null,
+				img: SimpulImage5,
+			},
+		],
+		ProjectInfo: {
+			ClientHeading: 'About Client',
+			CompanyInfo: [
+				{
+					id: 1,
+					title: 'Name',
+					details: 'Universitas Pembangunan Jaya',
+				},
+				{
+					id: 2,
+					title: 'Services',
+					details: 'Full Stack Development',
+				},
+				{
+					id: 3,
+					title: 'Website',
+					details: 'https://simpul2.upj.ac.id',
+				},
+				{
+					id: 4,
+					title: 'Email',
+					details: 'info@upj.ac.id',
+				},
+			],
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails:
+				'Designing and building Sistem Informasi Pegawai Unggul (SiMPUL) system at Universitas Pembangunan Jaya which is used to manage employee data and performance.',
+			Technologies: [
+				{
+					title: 'Tools & Technologies',
+					techs: [
+						'HTML',
+						'CSS',
+						'JavaScript',
+						'CodeIgniter',
+						'Bootstrap',
+						'PHP',
+						'MySQL',
+					],
+				},
+			],
+			ProjectDetailsHeading: 'Challenges:',
+			ProjectDetails: [
+				{
+					id: 1,
+					details: `
+						<ol style="list-style: decimal;margin-left:20px;font-size:14px;">
+							<li>
+								<b>
+								Designing a User-Friendly Interface:
+								</b>
+								<br>
+								Designing a user-friendly interface for the system that is easy to use and navigate for employees
+							</li>
+							<li>
+							<b>Developing a Robust Backend:</b>
+							<br>
+							Developing a robust backend system that can handle large amounts of data and user requests efficiently
+							</li>
+							<li>
+								<b>Ensuring Data Security:</b>
+								<br>
+								Ensuring the security and integrity of employee data and performance records through encryption and access controls.
+							</li>
+							<li>
+								<b>Testing and Deployment:</b>
+								<br>
+								Testing the system to ensure it works as expected and deploying it to the production environment.
+							</li>
+							<li>
+								<b>Documentation and Maintenance:</b>
+								<br>
+								Providing documentation for the system and ensuring it is maintained and updated regularly.
+							</li>
+							<li>
+								<b>User Training and Support:</b>
+								<br>
+								Providing training and support for users to ensure they can use the system effectively.
+							</li>
+						</ol>
+					`,
+				}
+			],
+			SocialSharingHeading: '',
+			SocialSharing: [
+				
+			],
+		},
+		RelatedProject: {
+			title: 'Related Projects',
+			Projects: [
+
+			],
+		},
+	},
 ];
 
 export default projectsData;

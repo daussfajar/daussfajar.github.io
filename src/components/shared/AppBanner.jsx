@@ -3,7 +3,8 @@ import useThemeSwitcher from '../../hooks/useThemeSwitcher';
 import { FiArrowDownCircle } from 'react-icons/fi';
 import { motion } from 'framer-motion';
 import { Oval } from 'react-loader-spinner';
-import profile from '../../images/profile.jpg';
+// import profile from '../../images/profile.jpg';
+import profile from '../../images/fajar-photo.png';
 
 const AppBanner = () => {
 	const [activeTheme] = useThemeSwitcher();
@@ -104,7 +105,7 @@ const AppBanner = () => {
 								maxWidth: '100%',
 								display: isLoading ? 'none' : 'block',
 							}}
-							className="rounded-lg shadow-lg border-2 border-primary-light dark:border-secondary-dark"
+							className="rounded-lg /*shadow-lg*/ border-2 border-primary-light dark:border-secondary-dark"
 						/>
 					</div>
 				</center>

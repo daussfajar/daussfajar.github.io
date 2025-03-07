@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
-import profileImage from '../../images/profile.jpg';
+// import profileImage from '../../images/profile.jpg';
+import profileImage from '../../images/fajar-photo.png';
 import { useContext } from 'react';
 import AboutMeContext from '../../context/AboutMeContext';
 
