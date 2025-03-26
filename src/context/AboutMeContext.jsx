@@ -2,8 +2,9 @@ import { useState, createContext } from 'react';
 import { aboutMeData } from '../data/aboutMeData';
 import { clientsHeading as clientsPageHeading } from '../data/clientsData';
 import { educationsData, educationsHeading as educationsPageHeading } from '../data/educationsData';
-import { clientsData as clientsDataJson } from '../data/clientsData';
+// import { clientsData as clientsDataJson } from '../data/clientsData';
 import { skillsHeading, skillsData as skillsDataJson } from '../data/skillsData';
+import { frameworksData, frameworksHeading } from '../data/frameworksData';
 
 const AboutMeContext = createContext();
 
@@ -14,7 +15,7 @@ export const AboutMeProvider = ({ children }) => {
 	
 	const educationsHeading = educationsPageHeading;
 
-	const [clientsData, setClientsData] = useState(clientsDataJson);
+	// const [clientsData, setClientsData] = useState(clientsDataJson);
 	const [skillsData, setSkillsData] = useState(skillsDataJson);
 
 	return (
@@ -25,11 +26,13 @@ export const AboutMeProvider = ({ children }) => {
 				clientsHeading,
 				educationsHeading,
 				educationsData,
-				clientsData,
-				setClientsData,
+				// clientsData,
+				// setClientsData,
 				skillsHeading,
 				skillsData,
-				setSkillsData
+				setSkillsData,
+				frameworksHeading,
+				frameworksData
 			}}
 		>
 			{children}

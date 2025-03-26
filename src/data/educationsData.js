@@ -3,7 +3,7 @@ import UPJ from '../images/brands/upjlogo.png';
 import FreeCodeCamp from '../images/brands/freecodecamp.png';
 import Udemy from '../images/brands/logo-udemy.png';
 
-export const educationsHeading = 'Education'
+export const educationsHeading = 'Educations'
 
 export const educationsData = [
     {

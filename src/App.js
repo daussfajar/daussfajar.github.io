@@ -11,6 +11,7 @@ const About = lazy(() => import('./pages/AboutMe'));
 const Contact = lazy(() => import('./pages/Contact.jsx'));
 const Home = lazy(() => import('./pages/Home'));
 const Projects = lazy(() => import('./pages/Projects'));
+const Resume = lazy(() => import('./pages/Resume'));
 const ProjectSingle = lazy(() => import('./pages/ProjectSingle.jsx'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 
@@ -24,7 +25,8 @@ function App() {
 					<Suspense fallback={""}>
 						<Routes>
 							<Route path="/" element={<Home />} />
-							<Route path="projects" element={<Projects />} />							
+							<Route path="resume" element={<Resume />} />
+							<Route path="projects" element={<Projects />} />
 							<Route
 								path="projects/:id"
 								element={<ProjectSingle />}
