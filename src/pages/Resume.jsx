@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
-import ContactDetails from '../components/contact/ContactDetails';
-import ContactForm from '../components/contact/ContactForm';
+
+import Experience from '../components/resume/Experience';
+import Education from '../components/resume/Education';
 
 const Resume = () => {
 	return (
@@ -12,10 +13,10 @@ const Resume = () => {
 				duration: 0.5,
 				delay: 0.1,
 			}}
-			className="container mx-auto flex flex-col-reverse lg:flex-row py-5 lg:py-10 lg:mt-10"
+			className="container py-5 lg:py-10 lg:mt-10"
 		>
-			<ContactForm />
-			<ContactDetails />
+			<Experience />
+			<Education />
 		</motion.div>
 	);
 };
