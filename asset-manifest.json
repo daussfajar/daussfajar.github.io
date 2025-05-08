@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.69fd7c44.css",
-    "main.js": "/static/js/main.75b66571.js",
-    "static/css/499.eb723887.chunk.css": "/static/css/499.eb723887.chunk.css",
-    "static/js/499.748d5d9c.chunk.js": "/static/js/499.748d5d9c.chunk.js",
+    "main.js": "/static/js/main.f40bff84.js",
+    "static/css/822.3670bd25.chunk.css": "/static/css/822.3670bd25.chunk.css",
+    "static/js/822.4cb8ded9.chunk.js": "/static/js/822.4cb8ded9.chunk.js",
     "static/js/72.79282d94.chunk.js": "/static/js/72.79282d94.chunk.js",
-    "static/js/849.2968de7f.chunk.js": "/static/js/849.2968de7f.chunk.js",
-    "static/js/283.f4f2bec7.chunk.js": "/static/js/283.f4f2bec7.chunk.js",
+    "static/js/849.2da21392.chunk.js": "/static/js/849.2da21392.chunk.js",
+    "static/js/283.81b05c7b.chunk.js": "/static/js/283.81b05c7b.chunk.js",
     "static/js/642.01d6a826.chunk.js": "/static/js/642.01d6a826.chunk.js",
     "static/js/768.4e9da360.chunk.js": "/static/js/768.4e9da360.chunk.js",
     "static/js/44.86f59792.chunk.js": "/static/js/44.86f59792.chunk.js",
@@ -31,7 +31,6 @@
     "static/media/student_portal-3.png": "/static/media/student_portal-3.a894d3ee14fc84f8c921.png",
     "static/media/student_portal-2.png": "/static/media/student_portal-2.33ab15ecaeee894429d0.png",
     "static/media/mbkm-2.png": "/static/media/mbkm-2.d17b24346d19e367a7f4.png",
-    "static/media/springboot.png": "/static/media/springboot.a9e08d2d0f76359ec61b.png",
     "static/media/student_portal-6.png": "/static/media/student_portal-6.a2e26c06212ff126aff9.png",
     "static/media/egi_helpdesk-3.png": "/static/media/egi_helpdesk-3.7278a72425ff7d494ef7.png",
     "static/media/resto_cilupba_3.png": "/static/media/resto_cilupba_3.c8180ee24fccc5a1211e.png",
@@ -72,7 +71,6 @@
     "static/media/mbkm-4.png": "/static/media/mbkm-4.030fc3859bcbaaa176b5.png",
     "static/media/egi_helpdesk-6.png": "/static/media/egi_helpdesk-6.b47384cebb11fd8e49e5.png",
     "static/media/mbkm-5.png": "/static/media/mbkm-5.1ab99715a91e39b6a186.png",
-    "static/media/nestjs.png": "/static/media/nestjs.0618903b47e3b40930a6.png",
     "static/media/simpul-3.png": "/static/media/simpul-3.e071668d4e76ddd3b034.png",
     "static/media/resto_cilupba_4.png": "/static/media/resto_cilupba_4.d27fd9f2092824130734.png",
     "static/media/uc_ocw_main.png": "/static/media/uc_ocw_main.5de1dd1adbace18137a5.png",
@@ -144,12 +142,12 @@
     "static/media/express.svg": "/static/media/express.75fff9be2f3b289ba7be1f43a08f7a4c.svg",
     "index.html": "/index.html",
     "main.69fd7c44.css.map": "/static/css/main.69fd7c44.css.map",
-    "main.75b66571.js.map": "/static/js/main.75b66571.js.map",
-    "499.eb723887.chunk.css.map": "/static/css/499.eb723887.chunk.css.map",
-    "499.748d5d9c.chunk.js.map": "/static/js/499.748d5d9c.chunk.js.map",
+    "main.f40bff84.js.map": "/static/js/main.f40bff84.js.map",
+    "822.3670bd25.chunk.css.map": "/static/css/822.3670bd25.chunk.css.map",
+    "822.4cb8ded9.chunk.js.map": "/static/js/822.4cb8ded9.chunk.js.map",
     "72.79282d94.chunk.js.map": "/static/js/72.79282d94.chunk.js.map",
-    "849.2968de7f.chunk.js.map": "/static/js/849.2968de7f.chunk.js.map",
-    "283.f4f2bec7.chunk.js.map": "/static/js/283.f4f2bec7.chunk.js.map",
+    "849.2da21392.chunk.js.map": "/static/js/849.2da21392.chunk.js.map",
+    "283.81b05c7b.chunk.js.map": "/static/js/283.81b05c7b.chunk.js.map",
     "642.01d6a826.chunk.js.map": "/static/js/642.01d6a826.chunk.js.map",
     "768.4e9da360.chunk.js.map": "/static/js/768.4e9da360.chunk.js.map",
     "44.86f59792.chunk.js.map": "/static/js/44.86f59792.chunk.js.map",
@@ -162,6 +160,6 @@
   },
   "entrypoints": [
     "static/css/main.69fd7c44.css",
-    "static/js/main.75b66571.js"
+    "static/js/main.f40bff84.js"
   ]
 }
