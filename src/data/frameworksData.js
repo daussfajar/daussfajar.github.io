@@ -4,10 +4,10 @@ import Codeigniter from '../images/skills/codeigniter.png';
 import Angular from '../images/skills/angular.png';
 import NodeJS from '../images/skills/nodejs.png';
 import Flutter from '../images/skills/flutter.png';
-import SpringBoot from '../images/skills/springboot.png';
+// import SpringBoot from '../images/skills/springboot.png';
 import NextJS from '../images/skills/next.png';
 import Express from '../images/skills/express.svg';
-import NestJS from '../images/skills/nestjs.png';
+// import NestJS from '../images/skills/nestjs.png';
 
 export const frameworksHeading = "Frameworks";
 
@@ -42,11 +42,11 @@ export const frameworksData = [
         title: 'Flutter',
         img: Flutter,
     },
-    {
-        id: 7,
-        title: 'Spring Boot',
-        img: SpringBoot,
-    },
+    // {
+    //     id: 7,
+    //     title: 'Spring Boot',
+    //     img: SpringBoot,
+    // },
     {
         id: 8,
         title: 'NextJS',
@@ -57,9 +57,9 @@ export const frameworksData = [
         title: 'Express',
         img: Express
     },
-    {
-        id: 10,
-        title: 'NestJS',
-        img: NestJS
-    }
+    // {
+    //     id: 10,
+    //     title: 'NestJS',
+    //     img: NestJS
+    // }
 ]
