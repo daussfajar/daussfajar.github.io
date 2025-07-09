@@ -1,7 +1,7 @@
 import Dart from '../images/skills/dart1.png';
 import Java from '../images/skills/java.png';
 import Golang from '../images/skills/golang.png';
-import Kotlin from '../images/skills/kotlin.png';
+// import Kotlin from '../images/skills/kotlin.png';
 import PHP from '../images/skills/php.png';
 import TypeScript from '../images/skills/typescript.png';
 import JavaScript from '../images/skills/javascript.png';
@@ -30,11 +30,6 @@ export const skillsData = [
         id: 4,
         title: 'Golang',
         img: Golang
-    },
-    {
-        id: 5,
-        title: 'Kotlin',
-        img: Kotlin
     },
     {
         id: 6,
