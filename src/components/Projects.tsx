@@ -2,8 +2,28 @@ import { ExternalLink, Github, Eye } from "lucide-react";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import { Skeleton } from "@/components/ui/skeleton";
+import { useState, useEffect } from "react";
 
 const Projects = () => {
+  const [imageLoading, setImageLoading] = useState<{[key: number]: boolean}>({});
+  
+  useEffect(() => {
+    // Simulate image loading for each project
+    const loadingStates: {[key: number]: boolean} = {};
+    for (let i = 0; i < 6; i++) {
+      loadingStates[i] = true;
+    }
+    setImageLoading(loadingStates);
+    
+    // Simulate images loading with different delays
+    for (let i = 0; i < 6; i++) {
+      setTimeout(() => {
+        setImageLoading(prev => ({ ...prev, [i]: false }));
+      }, 1000 + (i * 200));
+    }
+  }, []);
+
   const projects = [
     {
       title: "Enterprise Web Application",
@@ -84,31 +104,39 @@ const Projects = () => {
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <CardHeader className="p-0">
-                {/* Project image placeholder with gradient */}
-                <div className={`h-48 ${project.image} relative overflow-hidden`}>
-                  <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-all duration-300"></div>
-                  <div className="absolute top-4 right-4">
-                    <Badge className={`${getStatusColor(project.status)} text-white`}>
-                      {project.status}
-                    </Badge>
-                  </div>
-                  <div className="absolute top-4 left-4">
-                    <Badge variant="secondary" className="bg-white/90 text-gray-800">
-                      {project.category}
-                    </Badge>
-                  </div>
-                  
-                  {/* Hover overlay with action buttons */}
-                  <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-all duration-300 flex items-center justify-center space-x-4">
-                    <Button size="sm" variant="secondary" className="bg-white/90 text-gray-800 hover:bg-white">
-                      <Eye className="h-4 w-4 mr-2" />
-                      Demo
-                    </Button>
-                    <Button size="sm" variant="secondary" className="bg-white/90 text-gray-800 hover:bg-white">
-                      <Github className="h-4 w-4 mr-2" />
-                      Code
-                    </Button>
-                  </div>
+                {/* Project image with skeleton loading */}
+                <div className="h-48 relative overflow-hidden">
+                  {imageLoading[index] ? (
+                    <Skeleton className="h-full w-full" />
+                  ) : (
+                    <>
+                      <div className={`h-full ${project.image} relative overflow-hidden`}>
+                        <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-all duration-300"></div>
+                        <div className="absolute top-4 right-4">
+                          <Badge className={`${getStatusColor(project.status)} text-white`}>
+                            {project.status}
+                          </Badge>
+                        </div>
+                        <div className="absolute top-4 left-4">
+                          <Badge variant="secondary" className="bg-white/90 text-gray-800">
+                            {project.category}
+                          </Badge>
+                        </div>
+                        
+                        {/* Hover overlay with action buttons */}
+                        <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-all duration-300 flex items-center justify-center space-x-4">
+                          <Button size="sm" variant="secondary" className="bg-white/90 text-gray-800 hover:bg-white">
+                            <Eye className="h-4 w-4 mr-2" />
+                            Demo
+                          </Button>
+                          <Button size="sm" variant="secondary" className="bg-white/90 text-gray-800 hover:bg-white">
+                            <Github className="h-4 w-4 mr-2" />
+                            Code
+                          </Button>
+                        </div>
+                      </div>
+                    </>
+                  )}
                 </div>
               </CardHeader>
 

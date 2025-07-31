@@ -2,7 +2,6 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import ThemeToggle from "@/components/ThemeToggle";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -63,12 +62,10 @@ const Navbar = () => {
                 </button>
               ))}
             </div>
-            <ThemeToggle />
           </div>
 
-          {/* Mobile menu button & theme toggle */}
-          <div className="md:hidden flex items-center space-x-2">
-            <ThemeToggle />
+          {/* Mobile menu button */}
+          <div className="md:hidden">
             <Button
               variant="ghost"
               size="sm"
