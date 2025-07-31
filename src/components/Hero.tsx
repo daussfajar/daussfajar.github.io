@@ -57,7 +57,7 @@ const Hero = () => {
             
             {/* Download CV Button - Uncomment if needed */}
             <Button
-              onClick={() => window.open("/public/Fajar-Resume.pdf", "_blank")}
+              onClick={() => window.open("/Fajar-Resume.pdf", "_blank")}
               variant="secondary"
               className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-semibold px-8 py-3 rounded-full transition-all duration-300 hover:scale-105"
             >
