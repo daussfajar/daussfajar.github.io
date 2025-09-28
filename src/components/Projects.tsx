@@ -4,6 +4,16 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Skeleton } from "@/components/ui/skeleton";
 import { useState, useEffect } from "react";
+import spa from "@/assets/projects/upj/upj-spa.jpeg";
+import mbkm from "@/assets/projects/upj/upj-mbkm.png";
+import studentPortal from "@/assets/projects/upj/upj-student-portal.png";
+import siuk from "@/assets/projects/upj/upj-siuk.png";
+import eOffice from "@/assets/projects/upj/upj-e-office.png";
+import careerCenter from "@/assets/projects/upj/uc-career-center.jpg";
+import incadUC from "@/assets/projects/upj/upj-incad-uc.png";
+import upjSimpul from "@/assets/projects/upj/upj-simpul.png";
+import mentorkita from "@/assets/projects/upj/mentorkita.png";
+import ucOcw from "@/assets/projects/upj/uc-ocw.png";
 
 const Projects = () => {
   const [imageLoading, setImageLoading] = useState<{[key: number]: boolean}>({});
@@ -26,53 +36,85 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "Enterprise Web Application",
-      description: "Sistem manajemen komprehensif untuk Pusat Gadai Indonesia dengan fitur inventory management, customer portal, dan real-time reporting dashboard.",
-      technologies: ["React.js", "Node.js", "PostgreSQL", "Redux", "Express.js"],
-      image: "bg-gradient-to-br from-blue-500 to-purple-600",
+      title: "Sistem Pencairan Anggaran",
+      description: "Designing and developing a budget disbursement system at Universitas Pembangunan Jaya that is used to manage the annual budget disbursement process.",
+      technologies: ["JQuery", "Codeigniter 3", "MySQL", "PHP", "Bootstrap 4", "JavaScript", "HTML", "CSS"],
+      image: spa,
       category: "Full Stack",
       status: "Production"
     },
     {
-      title: "E-Commerce Platform",
-      description: "Platform e-commerce modern dengan payment gateway integration, inventory management, dan admin dashboard yang user-friendly.",
-      technologies: ["Next.js", "TypeScript", "MongoDB", "Stripe API", "Tailwind CSS"],
-      image: "bg-gradient-to-br from-green-500 to-teal-600",
-      category: "E-Commerce",
+      title: "MBKM Management System",
+      description: "Developing a comprehensive MBKM management system for Universitas Pembangunan Jaya to facilitate student internships and community service programs.",
+      technologies: ["JQuery", "Codeigniter 3", "MySQL", "PHP", "Bootstrap 4", "JavaScript", "HTML", "CSS"],
+      image: mbkm,
+      category: "Full Stack",
+      status: "Production"
+    },
+    {
+      title: "Student Portal",
+      description: "Creating a student portal for Universitas Pembangunan Jaya that provides students with access to academic resources, schedules, and personal information.",
+      technologies: ["JQuery", "Codeigniter 3", "MySQL", "PHP", "Bootstrap 4", "JavaScript", "HTML", "CSS"],
+      image: studentPortal,
+      category: "Full Stack",
+      status: "Production"
+    },
+    {
+      title: "Sistem Informasi Uji Kompetensi",
+      description: "Developing an information system for competency testing to streamline the process of scheduling, conducting, and evaluating competency tests.",
+      technologies: ["JQuery", "Codeigniter 3", "MySQL", "PHP", "Bootstrap 4", "JavaScript", "HTML", "CSS"],
+      image: siuk,
+      category: "Full Stack",
       status: "Development"
     },
     {
-      title: "Real-Time Chat Application",
-      description: "Aplikasi chat real-time dengan fitur group messaging, file sharing, dan video call integration menggunakan WebRTC technology.",
-      technologies: ["Vue.js", "Socket.io", "Node.js", "Redis", "WebRTC"],
-      image: "bg-gradient-to-br from-purple-500 to-pink-600",
-      category: "Web App",
-      status: "Completed"
+      title: "E-Office Application",
+      description: "Designing and building an E-Office system at Pembangunan Jaya University which is used to manage the process of borrowing infrastructure, borrowing equipment and submitting documents.",
+      technologies: ["JQuery", "Codeigniter 3", "MySQL", "PHP", "Bootstrap 4", "JavaScript", "HTML", "CSS"],
+      image: eOffice,
+      category: "Full Stack",
+      status: "Development"
     },
     {
-      title: "Data Analytics Dashboard",
-      description: "Dashboard analytics untuk visualisasi data business intelligence dengan real-time charts dan customizable reports.",
-      technologies: ["React.js", "D3.js", "Python", "FastAPI", "PostgreSQL"],
-      image: "bg-gradient-to-br from-orange-500 to-red-600",
-      category: "Analytics",
+      title: "Career Center System",
+      description: "Creating a career center system for Universitas Pembangunan Jaya to assist students and alumni in finding job opportunities and career development resources.",
+      technologies: ["JQuery", "Codeigniter 3", "MySQL", "PHP", "Bootstrap 4", "JavaScript", "HTML", "CSS"],
+      image: careerCenter,
+      category: "Full Stack",
       status: "Production"
     },
     {
-      title: "Mobile-First PWA",
-      description: "Progressive Web Application dengan offline capabilities, push notifications, dan responsive design untuk optimal mobile experience.",
-      technologies: ["React.js", "PWA", "Service Workers", "IndexedDB", "Firebase"],
-      image: "bg-gradient-to-br from-cyan-500 to-blue-600",
-      category: "PWA",
+      title: "INCAD UC",
+      description: "Designing and building the INCAD (Indonesia Capacity Development) application for Ciputra University. The application which is used to provide a Repository and Information about workshops. The application is designed to be user-friendly and easy to navigate, with a focus on providing high-quality workshop content.",
+      technologies: ["JQuery", "Codeigniter 3", "MySQL", "PHP", "Bootstrap 4", "JavaScript", "HTML", "CSS"],
+      image: incadUC,
+      category: "Full Stack",
+      status: "Production"
+    },
+    {
+      title: "SIMPUL",
+      description: "Designing and building Sistem Kepegawaian Unggul system at Universitas Pembangunan Jaya which is used to manage personnel processes, such as Attendance, Leave and Permit Application, KPI Assessment Process and Form Submission.",
+      technologies: ["JQuery", "Codeigniter 3", "MySQL", "PHP", "Bootstrap 4", "JavaScript", "HTML", "CSS"],
+      image: upjSimpul,
+      category: "Full Stack",
+      status: "Production"
+    },
+    {
+      title: "MentorKita",
+      description: "Creating a web-based platform that connects mentors and mentees for career development and personal growth. The platform allows users to create profiles, search for mentors/mentees, and schedule mentoring sessions.",
+      technologies: ["Laravel", "MySQL", "PHP", "Bootstrap 5", "JavaScript", "HTML", "CSS"],
+      image: mentorkita,
+      category: "Full Stack",
       status: "Completed"
     },
     {
-      title: "API Gateway System",
-      description: "Microservices architecture dengan API gateway, rate limiting, authentication, dan comprehensive logging system.",
-      technologies: ["Node.js", "Docker", "Kubernetes", "Redis", "JWT"],
-      image: "bg-gradient-to-br from-indigo-500 to-purple-600",
-      category: "Backend",
-      status: "Production"
-    }
+      title: "UC OCW (Open Course Ware)",
+      description: "Developing an Open Course Ware (OCW) platform for Ciputra University to provide free access to educational resources and course materials for students and the public.",
+      technologies: ["Laravel", "MySQL", "PHP", "Bootstrap 5", "JavaScript", "HTML", "CSS"],
+      image: ucOcw,
+      category: "Full Stack",
+      status: "Completed"
+    },
   ];
 
   const getStatusColor = (status: string) => {
@@ -110,18 +152,21 @@ const Projects = () => {
                     <Skeleton className="h-full w-full" />
                   ) : (
                     <>
-                      <div className={`h-full ${project.image} relative overflow-hidden`}>
-                        <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-all duration-300"></div>
-                        <div className="absolute top-4 right-4">
-                          <Badge className={`${getStatusColor(project.status)} text-white`}>
-                            {project.status}
-                          </Badge>
-                        </div>
-                        <div className="absolute top-4 left-4">
-                          <Badge variant="secondary" className="bg-white/90 text-gray-800">
-                            {project.category}
-                          </Badge>
-                        </div>
+                      <div className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105 relative">
+                        {typeof project.image === "string" && project.image.startsWith("bg-") ? (
+                          <div className={`h-full w-full ${project.image}`}></div>
+                        ) : (
+                          <img 
+                            src={project.image} 
+                            alt={project.title} 
+                            className="h-full w-full object-cover"
+                          />
+                        )}
+
+                        {/* Category badge */}
+                        <span className="absolute top-3 right-3 px-3 py-1 text-xs font-semibold text-white rounded bg-gray-500">
+                          {project.category}
+                        </span>
                         
                         {/* Hover overlay with action buttons */}
                         <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-all duration-300 flex items-center justify-center space-x-4">
