@@ -15,7 +15,7 @@ const Skills = () => {
       title: "Backend Development", 
       skills: [
         "Node.js", "Express.js", "PHP", "Laravel", "Python", 
-        "Django", "RESTful APIs", "GraphQL", "Socket.io", "JWT"
+        "Django", "RESTful APIs", "GraphQL", "JWT", "Paseto"
       ],
       color: "bg-secondary"
     },

@@ -36,85 +36,95 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "Sistem Pencairan Anggaran",
-      description: "Designing and developing a budget disbursement system at Universitas Pembangunan Jaya that is used to manage the annual budget disbursement process.",
-      technologies: ["JQuery", "Codeigniter 3", "MySQL", "PHP", "Bootstrap 4", "JavaScript", "HTML", "CSS"],
+      title: "Budget Disbursement System",
+      description:
+        "Designing and developing a web-based budget disbursement system to manage and monitor annual financial allocation processes.",
+      technologies: ["jQuery", "CodeIgniter 3", "MySQL", "PHP", "Bootstrap 4", "JavaScript", "HTML", "CSS"],
       image: spa,
       category: "Full Stack",
       status: "Production"
     },
     {
-      title: "MBKM Management System",
-      description: "Developing a comprehensive MBKM management system for Universitas Pembangunan Jaya to facilitate student internships and community service programs.",
-      technologies: ["JQuery", "Codeigniter 3", "MySQL", "PHP", "Bootstrap 4", "JavaScript", "HTML", "CSS"],
+      title: "Academic Program Management System",
+      description:
+        "Developing a comprehensive academic program management system to support student activities such as internships and community-based programs.",
+      technologies: ["jQuery", "CodeIgniter 3", "MySQL", "PHP", "Bootstrap 4", "JavaScript", "HTML", "CSS"],
       image: mbkm,
       category: "Full Stack",
       status: "Production"
     },
     {
-      title: "Student Portal",
-      description: "Creating a student portal for Universitas Pembangunan Jaya that provides students with access to academic resources, schedules, and personal information.",
-      technologies: ["JQuery", "Codeigniter 3", "MySQL", "PHP", "Bootstrap 4", "JavaScript", "HTML", "CSS"],
+      title: "Student Portal SPA",
+      description:
+        "Creating a single-page student portal application that provides access to academic information, schedules, and personal account management.",
+      technologies: ["jQuery", "CodeIgniter 3", "MySQL", "PHP", "Bootstrap 4", "JavaScript", "HTML", "CSS"],
       image: studentPortal,
       category: "Full Stack",
       status: "Production"
     },
     {
-      title: "Sistem Informasi Uji Kompetensi",
-      description: "Developing an information system for competency testing to streamline the process of scheduling, conducting, and evaluating competency tests.",
-      technologies: ["JQuery", "Codeigniter 3", "MySQL", "PHP", "Bootstrap 4", "JavaScript", "HTML", "CSS"],
+      title: "Competency Assessment System",
+      description:
+        "Developing an information system to streamline the scheduling, execution, and evaluation of competency assessment processes.",
+      technologies: ["jQuery", "CodeIgniter 3", "MySQL", "PHP", "Bootstrap 4", "JavaScript", "HTML", "CSS"],
       image: siuk,
       category: "Full Stack",
       status: "Development"
     },
     {
-      title: "E-Office Application",
-      description: "Designing and building an E-Office system at Pembangunan Jaya University which is used to manage the process of borrowing infrastructure, borrowing equipment and submitting documents.",
-      technologies: ["JQuery", "Codeigniter 3", "MySQL", "PHP", "Bootstrap 4", "JavaScript", "HTML", "CSS"],
+      title: "E-Office Management System",
+      description:
+        "Designing and building an internal e-office system to manage facility booking, equipment lending, and document submission workflows.",
+      technologies: ["jQuery", "CodeIgniter 3", "MySQL", "PHP", "Bootstrap 4", "JavaScript", "HTML", "CSS"],
       image: eOffice,
       category: "Full Stack",
       status: "Development"
     },
     {
-      title: "Career Center System",
-      description: "Creating a career center system for Universitas Pembangunan Jaya to assist students and alumni in finding job opportunities and career development resources.",
-      technologies: ["JQuery", "Codeigniter 3", "MySQL", "PHP", "Bootstrap 4", "JavaScript", "HTML", "CSS"],
+      title: "Career Center Platform",
+      description:
+        "Creating a career center platform to assist students and alumni in accessing job opportunities and career development resources.",
+      technologies: ["jQuery", "CodeIgniter 3", "MySQL", "PHP", "Bootstrap 4", "JavaScript", "HTML", "CSS"],
       image: careerCenter,
       category: "Full Stack",
       status: "Production"
     },
     {
-      title: "INCAD UC",
-      description: "Designing and building the INCAD (Indonesia Capacity Development) application for Ciputra University. The application which is used to provide a Repository and Information about workshops. The application is designed to be user-friendly and easy to navigate, with a focus on providing high-quality workshop content.",
-      technologies: ["JQuery", "Codeigniter 3", "MySQL", "PHP", "Bootstrap 4", "JavaScript", "HTML", "CSS"],
+      title: "Workshop & Learning Repository",
+      description:
+        "Designing and developing a learning repository platform that provides access to workshops, learning materials, and informational content.",
+      technologies: ["jQuery", "CodeIgniter 3", "MySQL", "PHP", "Bootstrap 4", "JavaScript", "HTML", "CSS"],
       image: incadUC,
       category: "Full Stack",
       status: "Production"
     },
     {
-      title: "SIMPUL",
-      description: "Designing and building Sistem Kepegawaian Unggul system at Universitas Pembangunan Jaya which is used to manage personnel processes, such as Attendance, Leave and Permit Application, KPI Assessment Process and Form Submission.",
-      technologies: ["JQuery", "Codeigniter 3", "MySQL", "PHP", "Bootstrap 4", "JavaScript", "HTML", "CSS"],
+      title: "Human Resource Management System",
+      description:
+        "Building an HR management system to handle attendance tracking, leave requests, performance evaluation, and internal form submissions.",
+      technologies: ["jQuery", "CodeIgniter 3", "MySQL", "PHP", "Bootstrap 4", "JavaScript", "HTML", "CSS"],
       image: upjSimpul,
       category: "Full Stack",
       status: "Production"
     },
     {
-      title: "MentorKita",
-      description: "Creating a web-based platform that connects mentors and mentees for career development and personal growth. The platform allows users to create profiles, search for mentors/mentees, and schedule mentoring sessions.",
+      title: "Mentorship Platform",
+      description:
+        "Creating a web-based platform that connects mentors and mentees for career development through profile management and session scheduling.",
       technologies: ["Laravel", "MySQL", "PHP", "Bootstrap 5", "JavaScript", "HTML", "CSS"],
       image: mentorkita,
       category: "Full Stack",
       status: "Completed"
     },
     {
-      title: "UC OCW (Open Course Ware)",
-      description: "Developing an Open Course Ware (OCW) platform for Ciputra University to provide free access to educational resources and course materials for students and the public.",
+      title: "Open Learning Platform",
+      description:
+        "Developing an open learning platform that provides free access to educational resources and course materials for public audiences.",
       technologies: ["Laravel", "MySQL", "PHP", "Bootstrap 5", "JavaScript", "HTML", "CSS"],
       image: ucOcw,
       category: "Full Stack",
       status: "Completed"
-    },
+    }
   ];
 
   const getStatusColor = (status: string) => {
@@ -169,7 +179,7 @@ const Projects = () => {
                         </span>
                         
                         {/* Hover overlay with action buttons */}
-                        <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-all duration-300 flex items-center justify-center space-x-4">
+                        {/* <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-all duration-300 flex items-center justify-center space-x-4">
                           <Button size="sm" variant="secondary" className="bg-white/90 text-gray-800 hover:bg-white">
                             <Eye className="h-4 w-4 mr-2" />
                             Demo
@@ -178,7 +188,7 @@ const Projects = () => {
                             <Github className="h-4 w-4 mr-2" />
                             Code
                           </Button>
-                        </div>
+                        </div> */}
                       </div>
                     </>
                   )}
@@ -211,10 +221,7 @@ const Projects = () => {
                 <div className="flex space-x-2 w-full">
                   <Button variant="outline" size="sm" className="flex-1 border-primary text-primary hover:bg-primary hover:text-primary-foreground">
                     <ExternalLink className="h-4 w-4 mr-2" />
-                    Live Demo
-                  </Button>
-                  <Button variant="ghost" size="sm" className="text-muted-foreground hover:text-foreground">
-                    <Github className="h-4 w-4" />
+                    Detail
                   </Button>
                 </div>
               </CardFooter>
